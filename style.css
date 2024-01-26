@@ -1,0 +1,107 @@
+body{
+    background-image: url(bakgrundsbild.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: visible;
+    background-size: cover;
+}
+#meny{
+    background-color: #81CCFF;
+    width: 100%;
+    height: 50px;
+    font-family: Georgia, serif;
+    padding-top: 10px;
+}
+a{
+    display: inline;
+    padding: 8%;
+    font-size: 25px;
+    color: black;
+    text-decoration-line: none;
+    font-family: Georgia, serif;
+}
+u{
+    text-decoration-line: none;
+    border-bottom: 7px solid white;
+}
+p{
+    font-size: medium;
+    color: white;
+    font-family: Georgia, serif;
+}
+#bilder{
+    text-align: center;
+    display: block;
+    height: 70%;
+    width: auto;
+}
+#sista{
+    background-color:#81CCFF;
+    width: 100%;
+    height: 25px;
+    float: inline-end;
+}
+#personuppgifter{
+    background-color: #81CCFF;
+    width: 24%;
+    height: 100%;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+#ommig, #framtid{
+    color: aliceblue;
+    font-size: 28px;
+    width: 30%;
+    height: 100%;
+    align-items: start;
+}
+.uppgifter{
+    padding: 3px;
+    display: flex;
+}
+.symbol{
+    padding-left: 7px;
+    padding-right: 20px;
+}
+#minbild{
+    padding-left: 110px;
+    margin-top: 10px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+table, tr, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+#tabell{
+    color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    tab-size: 20px;
+    font-size: 20px;
+    margin-left: 25%;
+    padding-bottom: 18px;
+}
+#skolinfo{
+    text-align: center;
+    font-size: 21px;
+}
+.favobild{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+}
+#fritidsintressen{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 250px;
+    height: auto;
+    padding-left: 480px;
+}
